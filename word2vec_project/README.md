@@ -13,6 +13,18 @@
 - Python 3.8+
 - 见 `requirements.txt`
 
+word2vec_project/
+│
+├── README.md              # 项目说明文档
+├── requirements.txt       # 项目依赖库
+├── data/
+│   └── corpus.txt         # 训练语料数据（示例数据）
+├── src/
+│   ├── train.py           # 训练脚本
+│   └── visualize.py       # 可视化脚本（生成图片）
+└── models/
+    └── word2vec.model     # (运行后生成) 训练好的模型文件
+    
 ## 快速开始
 
 ### 1. 安装依赖
